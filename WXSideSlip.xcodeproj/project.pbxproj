@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2248B33F1F8DC25C00259864 /* WXMessageBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B32F1F8DC25900259864 /* WXMessageBaseCell.m */; };
+		2248B3401F8DC25C00259864 /* WXMessageVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3301F8DC25900259864 /* WXMessageVideoCell.m */; };
+		2248B3411F8DC25C00259864 /* WXMessageLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3311F8DC25A00259864 /* WXMessageLocationCell.m */; };
+		2248B3421F8DC25C00259864 /* WXMessageGifCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3321F8DC25A00259864 /* WXMessageGifCell.m */; };
+		2248B3431F8DC25C00259864 /* WXMessageImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3331F8DC25A00259864 /* WXMessageImageCell.m */; };
+		2248B3441F8DC25C00259864 /* WXMessageVoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3361F8DC25A00259864 /* WXMessageVoiceCell.m */; };
+		2248B3451F8DC25C00259864 /* WXMessageTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3391F8DC25B00259864 /* WXMessageTimeCell.m */; };
+		2248B3461F8DC25C00259864 /* WXConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B33D1F8DC25C00259864 /* WXConversationCell.m */; };
+		2248B3471F8DC25C00259864 /* WXMessageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B33E1F8DC25C00259864 /* WXMessageTextCell.m */; };
+		2248B34A1F8DC32C00259864 /* WXContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3491F8DC32C00259864 /* WXContactsViewController.m */; };
+		2248B34D1F8DC34200259864 /* WXContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B34C1F8DC34200259864 /* WXContacts.m */; };
+		2248B3511F8DC37500259864 /* WXContactsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3501F8DC37500259864 /* WXContactsCell.m */; };
+		2248B3541F8DC4AC00259864 /* WXContactsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3531F8DC4AC00259864 /* WXContactsLayout.m */; };
+		2248B3581F8E0A0E00259864 /* WXTimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3571F8E0A0E00259864 /* WXTimelineCell.m */; };
+		2248B35D1F8E0ADD00259864 /* WXGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B35C1F8E0ADD00259864 /* WXGalleryView.m */; };
+		2248B3601F8E11E300259864 /* WXGalleryPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B35F1F8E11E300259864 /* WXGalleryPhotoCell.m */; };
+		2248B3631F8E285500259864 /* WXGalleryVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3621F8E285500259864 /* WXGalleryVideoCell.m */; };
+		2248B3651F8E290100259864 /* WXGallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2248B3641F8E290100259864 /* WXGallery.bundle */; };
+		2248B3681F8E2A0000259864 /* WXDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B3671F8E2A0000259864 /* WXDownloadManager.m */; };
+		2248B36B1F8E2B3200259864 /* WXProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B36A1F8E2B3200259864 /* WXProgressView.m */; };
+		2248B36E1F8E2B5C00259864 /* WXGalleryMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 2248B36D1F8E2B5C00259864 /* WXGalleryMedia.m */; };
+		225064551F8F789500B710F7 /* WXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225064541F8F789500B710F7 /* WXWebViewController.m */; };
+		2279AAA71F8B4F040004F789 /* WXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279AA9D1F8B4F040004F789 /* WXHomeViewController.m */; };
+		2279AAA81F8B4F040004F789 /* WXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279AAA01F8B4F040004F789 /* WXMainViewController.m */; };
+		2279AAA91F8B4F040004F789 /* WXMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279AAA21F8B4F040004F789 /* WXMenuViewController.m */; };
+		2279AAAC1F8B4F2C0004F789 /* WXTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2279AAAB1F8B4F2C0004F789 /* WXTimelineViewController.m */; };
+		228384191F8B61440004B69E /* WXTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 228384181F8B61440004B69E /* WXTimeline.m */; };
+		2283841D1F8B632E0004B69E /* WXTimelineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283841C1F8B632E0004B69E /* WXTimelineLayout.m */; };
+		2283842B1F8C75740004B69E /* WXConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283842A1F8C75740004B69E /* WXConversationListViewController.m */; };
+		228384311F8C79780004B69E /* WXConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 228384301F8C79780004B69E /* WXConversation.m */; };
+		228384341F8C7A7A0004B69E /* WXConversationLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 228384331F8C7A7A0004B69E /* WXConversationLayout.m */; };
+		228384371F8CB28C0004B69E /* WXMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228384361F8CB28C0004B69E /* WXMessageViewController.m */; };
+		2283843D1F8CB3630004B69E /* WXMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283843C1F8CB3630004B69E /* WXMessage.m */; };
+		228384401F8CB3700004B69E /* WXMessageLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2283843F1F8CB3700004B69E /* WXMessageLayout.m */; };
+		2283846A1F8CD2EE0004B69E /* WXGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 228384691F8CD2EE0004B69E /* WXGIFImageView.m */; };
 		22B7FA4B1F441D3800CEA827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FA4A1F441D3800CEA827 /* main.m */; };
 		22B7FA4E1F441D3900CEA827 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FA4D1F441D3900CEA827 /* AppDelegate.m */; };
 		22B7FA511F441D3900CEA827 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7FA501F441D3900CEA827 /* ViewController.m */; };
@@ -35,6 +70,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2248B32D1F8DC25900259864 /* WXMessageBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageBaseCell.h; sourceTree = "<group>"; };
+		2248B32E1F8DC25900259864 /* WXMessageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageTextCell.h; sourceTree = "<group>"; };
+		2248B32F1F8DC25900259864 /* WXMessageBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageBaseCell.m; sourceTree = "<group>"; };
+		2248B3301F8DC25900259864 /* WXMessageVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageVideoCell.m; sourceTree = "<group>"; };
+		2248B3311F8DC25A00259864 /* WXMessageLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageLocationCell.m; sourceTree = "<group>"; };
+		2248B3321F8DC25A00259864 /* WXMessageGifCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageGifCell.m; sourceTree = "<group>"; };
+		2248B3331F8DC25A00259864 /* WXMessageImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageImageCell.m; sourceTree = "<group>"; };
+		2248B3341F8DC25A00259864 /* WXMessageVoiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageVoiceCell.h; sourceTree = "<group>"; };
+		2248B3351F8DC25A00259864 /* WXMessageVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageVideoCell.h; sourceTree = "<group>"; };
+		2248B3361F8DC25A00259864 /* WXMessageVoiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageVoiceCell.m; sourceTree = "<group>"; };
+		2248B3371F8DC25B00259864 /* WXMessageLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageLocationCell.h; sourceTree = "<group>"; };
+		2248B3381F8DC25B00259864 /* WXMessageImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageImageCell.h; sourceTree = "<group>"; };
+		2248B3391F8DC25B00259864 /* WXMessageTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageTimeCell.m; sourceTree = "<group>"; };
+		2248B33A1F8DC25B00259864 /* WXMessageGifCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageGifCell.h; sourceTree = "<group>"; };
+		2248B33B1F8DC25B00259864 /* WXMessageTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessageTimeCell.h; sourceTree = "<group>"; };
+		2248B33C1F8DC25B00259864 /* WXConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXConversationCell.h; sourceTree = "<group>"; };
+		2248B33D1F8DC25C00259864 /* WXConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXConversationCell.m; sourceTree = "<group>"; };
+		2248B33E1F8DC25C00259864 /* WXMessageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessageTextCell.m; sourceTree = "<group>"; };
+		2248B3481F8DC32C00259864 /* WXContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXContactsViewController.h; sourceTree = "<group>"; };
+		2248B3491F8DC32C00259864 /* WXContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXContactsViewController.m; sourceTree = "<group>"; };
+		2248B34B1F8DC34200259864 /* WXContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXContacts.h; sourceTree = "<group>"; };
+		2248B34C1F8DC34200259864 /* WXContacts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXContacts.m; sourceTree = "<group>"; };
+		2248B34F1F8DC37500259864 /* WXContactsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXContactsCell.h; sourceTree = "<group>"; };
+		2248B3501F8DC37500259864 /* WXContactsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXContactsCell.m; sourceTree = "<group>"; };
+		2248B3521F8DC4AC00259864 /* WXContactsLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXContactsLayout.h; sourceTree = "<group>"; };
+		2248B3531F8DC4AC00259864 /* WXContactsLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXContactsLayout.m; sourceTree = "<group>"; };
+		2248B3561F8E0A0E00259864 /* WXTimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTimelineCell.h; sourceTree = "<group>"; };
+		2248B3571F8E0A0E00259864 /* WXTimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTimelineCell.m; sourceTree = "<group>"; };
+		2248B35B1F8E0ADD00259864 /* WXGalleryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXGalleryView.h; sourceTree = "<group>"; };
+		2248B35C1F8E0ADD00259864 /* WXGalleryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGalleryView.m; sourceTree = "<group>"; };
+		2248B35E1F8E11E300259864 /* WXGalleryPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXGalleryPhotoCell.h; sourceTree = "<group>"; };
+		2248B35F1F8E11E300259864 /* WXGalleryPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGalleryPhotoCell.m; sourceTree = "<group>"; };
+		2248B3611F8E285500259864 /* WXGalleryVideoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXGalleryVideoCell.h; sourceTree = "<group>"; };
+		2248B3621F8E285500259864 /* WXGalleryVideoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGalleryVideoCell.m; sourceTree = "<group>"; };
+		2248B3641F8E290100259864 /* WXGallery.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WXGallery.bundle; sourceTree = "<group>"; };
+		2248B3661F8E2A0000259864 /* WXDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXDownloadManager.h; sourceTree = "<group>"; };
+		2248B3671F8E2A0000259864 /* WXDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXDownloadManager.m; sourceTree = "<group>"; };
+		2248B3691F8E2B3200259864 /* WXProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXProgressView.h; sourceTree = "<group>"; };
+		2248B36A1F8E2B3200259864 /* WXProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXProgressView.m; sourceTree = "<group>"; };
+		2248B36C1F8E2B5C00259864 /* WXGalleryMedia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXGalleryMedia.h; sourceTree = "<group>"; };
+		2248B36D1F8E2B5C00259864 /* WXGalleryMedia.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGalleryMedia.m; sourceTree = "<group>"; };
+		225064531F8F789500B710F7 /* WXWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXWebViewController.h; sourceTree = "<group>"; };
+		225064541F8F789500B710F7 /* WXWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXWebViewController.m; sourceTree = "<group>"; };
+		2279AA9C1F8B4F040004F789 /* WXHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHomeViewController.h; sourceTree = "<group>"; };
+		2279AA9D1F8B4F040004F789 /* WXHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHomeViewController.m; sourceTree = "<group>"; };
+		2279AA9F1F8B4F040004F789 /* WXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMainViewController.h; sourceTree = "<group>"; };
+		2279AAA01F8B4F040004F789 /* WXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMainViewController.m; sourceTree = "<group>"; };
+		2279AAA11F8B4F040004F789 /* WXMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMenuViewController.h; sourceTree = "<group>"; };
+		2279AAA21F8B4F040004F789 /* WXMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMenuViewController.m; sourceTree = "<group>"; };
+		2279AAAA1F8B4F2C0004F789 /* WXTimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXTimelineViewController.h; sourceTree = "<group>"; };
+		2279AAAB1F8B4F2C0004F789 /* WXTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXTimelineViewController.m; sourceTree = "<group>"; };
+		2279AAAD1F8B53EC0004F789 /* WXSideSlip_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXSideSlip_PrefixHeader.pch; sourceTree = "<group>"; };
+		228384171F8B61440004B69E /* WXTimeline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXTimeline.h; sourceTree = "<group>"; };
+		228384181F8B61440004B69E /* WXTimeline.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXTimeline.m; sourceTree = "<group>"; };
+		2283841B1F8B632E0004B69E /* WXTimelineLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXTimelineLayout.h; sourceTree = "<group>"; };
+		2283841C1F8B632E0004B69E /* WXTimelineLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXTimelineLayout.m; sourceTree = "<group>"; };
+		2283841E1F8C53900004B69E /* WXMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMacros.h; sourceTree = "<group>"; };
+		228384291F8C75740004B69E /* WXConversationListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXConversationListViewController.h; sourceTree = "<group>"; };
+		2283842A1F8C75740004B69E /* WXConversationListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXConversationListViewController.m; sourceTree = "<group>"; };
+		2283842F1F8C79780004B69E /* WXConversation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXConversation.h; sourceTree = "<group>"; };
+		228384301F8C79780004B69E /* WXConversation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXConversation.m; sourceTree = "<group>"; };
+		228384321F8C7A7A0004B69E /* WXConversationLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXConversationLayout.h; sourceTree = "<group>"; };
+		228384331F8C7A7A0004B69E /* WXConversationLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXConversationLayout.m; sourceTree = "<group>"; };
+		228384351F8CB28C0004B69E /* WXMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMessageViewController.h; sourceTree = "<group>"; };
+		228384361F8CB28C0004B69E /* WXMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMessageViewController.m; sourceTree = "<group>"; };
+		2283843B1F8CB3630004B69E /* WXMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMessage.h; sourceTree = "<group>"; };
+		2283843C1F8CB3630004B69E /* WXMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMessage.m; sourceTree = "<group>"; };
+		2283843E1F8CB3700004B69E /* WXMessageLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXMessageLayout.h; sourceTree = "<group>"; };
+		2283843F1F8CB3700004B69E /* WXMessageLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXMessageLayout.m; sourceTree = "<group>"; };
+		228384681F8CD2EE0004B69E /* WXGIFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXGIFImageView.h; sourceTree = "<group>"; };
+		228384691F8CD2EE0004B69E /* WXGIFImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXGIFImageView.m; sourceTree = "<group>"; };
 		22B7FA461F441D3800CEA827 /* WXSideSlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXSideSlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B7FA4A1F441D3800CEA827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22B7FA4C1F441D3900CEA827 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +184,290 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2248B32C1F8DC12C00259864 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2248B33C1F8DC25B00259864 /* WXConversationCell.h */,
+				2248B33D1F8DC25C00259864 /* WXConversationCell.m */,
+				2248B32D1F8DC25900259864 /* WXMessageBaseCell.h */,
+				2248B32F1F8DC25900259864 /* WXMessageBaseCell.m */,
+				2248B33A1F8DC25B00259864 /* WXMessageGifCell.h */,
+				2248B3321F8DC25A00259864 /* WXMessageGifCell.m */,
+				2248B3381F8DC25B00259864 /* WXMessageImageCell.h */,
+				2248B3331F8DC25A00259864 /* WXMessageImageCell.m */,
+				2248B3371F8DC25B00259864 /* WXMessageLocationCell.h */,
+				2248B3311F8DC25A00259864 /* WXMessageLocationCell.m */,
+				2248B32E1F8DC25900259864 /* WXMessageTextCell.h */,
+				2248B33E1F8DC25C00259864 /* WXMessageTextCell.m */,
+				2248B33B1F8DC25B00259864 /* WXMessageTimeCell.h */,
+				2248B3391F8DC25B00259864 /* WXMessageTimeCell.m */,
+				2248B3351F8DC25A00259864 /* WXMessageVideoCell.h */,
+				2248B3301F8DC25900259864 /* WXMessageVideoCell.m */,
+				2248B3341F8DC25A00259864 /* WXMessageVoiceCell.h */,
+				2248B3361F8DC25A00259864 /* WXMessageVoiceCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2248B34E1F8DC36800259864 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2248B34F1F8DC37500259864 /* WXContactsCell.h */,
+				2248B3501F8DC37500259864 /* WXContactsCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2248B3551F8E0A0E00259864 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2248B3561F8E0A0E00259864 /* WXTimelineCell.h */,
+				2248B3571F8E0A0E00259864 /* WXTimelineCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2248B3591F8E0A9D00259864 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				225064521F8F788200B710F7 /* Web */,
+				2248B35A1F8E0ABF00259864 /* Gallery */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2248B35A1F8E0ABF00259864 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				2248B3641F8E290100259864 /* WXGallery.bundle */,
+				2248B35B1F8E0ADD00259864 /* WXGalleryView.h */,
+				2248B35C1F8E0ADD00259864 /* WXGalleryView.m */,
+				2248B35E1F8E11E300259864 /* WXGalleryPhotoCell.h */,
+				2248B35F1F8E11E300259864 /* WXGalleryPhotoCell.m */,
+				2248B3611F8E285500259864 /* WXGalleryVideoCell.h */,
+				2248B3621F8E285500259864 /* WXGalleryVideoCell.m */,
+				2248B3661F8E2A0000259864 /* WXDownloadManager.h */,
+				2248B3671F8E2A0000259864 /* WXDownloadManager.m */,
+				2248B3691F8E2B3200259864 /* WXProgressView.h */,
+				2248B36A1F8E2B3200259864 /* WXProgressView.m */,
+				2248B36C1F8E2B5C00259864 /* WXGalleryMedia.h */,
+				2248B36D1F8E2B5C00259864 /* WXGalleryMedia.m */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		225064521F8F788200B710F7 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				225064531F8F789500B710F7 /* WXWebViewController.h */,
+				225064541F8F789500B710F7 /* WXWebViewController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		2279AA961F8B4F040004F789 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2248B3591F8E0A9D00259864 /* Common */,
+				228384241F8C6C010004B69E /* Chat */,
+				2283841F1F8C6C000004B69E /* Contacts */,
+				2279AA971F8B4F040004F789 /* Me */,
+				2279AA9B1F8B4F040004F789 /* Slide */,
+				2279AAA31F8B4F040004F789 /* Timeline */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2279AA971F8B4F040004F789 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2279AA981F8B4F040004F789 /* Controller */,
+				2279AA991F8B4F040004F789 /* Model */,
+				2279AA9A1F8B4F040004F789 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		2279AA981F8B4F040004F789 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2279AA991F8B4F040004F789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2279AA9A1F8B4F040004F789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2279AA9B1F8B4F040004F789 /* Slide */ = {
+			isa = PBXGroup;
+			children = (
+				2279AA9C1F8B4F040004F789 /* WXHomeViewController.h */,
+				2279AA9D1F8B4F040004F789 /* WXHomeViewController.m */,
+				2279AA9F1F8B4F040004F789 /* WXMainViewController.h */,
+				2279AAA01F8B4F040004F789 /* WXMainViewController.m */,
+				2279AAA11F8B4F040004F789 /* WXMenuViewController.h */,
+				2279AAA21F8B4F040004F789 /* WXMenuViewController.m */,
+			);
+			path = Slide;
+			sourceTree = "<group>";
+		};
+		2279AAA31F8B4F040004F789 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				2279AAA41F8B4F040004F789 /* Controller */,
+				2283841A1F8B63220004B69E /* Layout */,
+				2279AAA51F8B4F040004F789 /* Model */,
+				2279AAA61F8B4F040004F789 /* View */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		2279AAA41F8B4F040004F789 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2279AAAA1F8B4F2C0004F789 /* WXTimelineViewController.h */,
+				2279AAAB1F8B4F2C0004F789 /* WXTimelineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2279AAA51F8B4F040004F789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				228384171F8B61440004B69E /* WXTimeline.h */,
+				228384181F8B61440004B69E /* WXTimeline.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2279AAA61F8B4F040004F789 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2248B3551F8E0A0E00259864 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2283841A1F8B63220004B69E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				2283841B1F8B632E0004B69E /* WXTimelineLayout.h */,
+				2283841C1F8B632E0004B69E /* WXTimelineLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		2283841F1F8C6C000004B69E /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				228384201F8C6C000004B69E /* Controller */,
+				228384211F8C6C000004B69E /* Layout */,
+				228384221F8C6C000004B69E /* Model */,
+				228384231F8C6C000004B69E /* View */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		228384201F8C6C000004B69E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2248B3481F8DC32C00259864 /* WXContactsViewController.h */,
+				2248B3491F8DC32C00259864 /* WXContactsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		228384211F8C6C000004B69E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				2248B3521F8DC4AC00259864 /* WXContactsLayout.h */,
+				2248B3531F8DC4AC00259864 /* WXContactsLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		228384221F8C6C000004B69E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2248B34B1F8DC34200259864 /* WXContacts.h */,
+				2248B34C1F8DC34200259864 /* WXContacts.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		228384231F8C6C000004B69E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2248B34E1F8DC36800259864 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		228384241F8C6C010004B69E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				228384251F8C6C010004B69E /* Controller */,
+				228384261F8C6C010004B69E /* Layout */,
+				228384271F8C6C010004B69E /* Model */,
+				228384281F8C6C010004B69E /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		228384251F8C6C010004B69E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				228384291F8C75740004B69E /* WXConversationListViewController.h */,
+				2283842A1F8C75740004B69E /* WXConversationListViewController.m */,
+				228384351F8CB28C0004B69E /* WXMessageViewController.h */,
+				228384361F8CB28C0004B69E /* WXMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		228384261F8C6C010004B69E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				228384321F8C7A7A0004B69E /* WXConversationLayout.h */,
+				228384331F8C7A7A0004B69E /* WXConversationLayout.m */,
+				2283843E1F8CB3700004B69E /* WXMessageLayout.h */,
+				2283843F1F8CB3700004B69E /* WXMessageLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		228384271F8C6C010004B69E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2283842F1F8C79780004B69E /* WXConversation.h */,
+				228384301F8C79780004B69E /* WXConversation.m */,
+				2283843B1F8CB3630004B69E /* WXMessage.h */,
+				2283843C1F8CB3630004B69E /* WXMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		228384281F8C6C010004B69E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				228384681F8CD2EE0004B69E /* WXGIFImageView.h */,
+				228384691F8CD2EE0004B69E /* WXGIFImageView.m */,
+				2248B32C1F8DC12C00259864 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		22B7FA3D1F441D3800CEA827 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +491,7 @@
 		22B7FA481F441D3800CEA827 /* WXSideSlip */ = {
 			isa = PBXGroup;
 			children = (
+				2279AA961F8B4F040004F789 /* Classes */,
 				22B7FA4C1F441D3900CEA827 /* AppDelegate.h */,
 				22B7FA4D1F441D3900CEA827 /* AppDelegate.m */,
 				22B7FA4F1F441D3900CEA827 /* ViewController.h */,
@@ -109,6 +500,8 @@
 				22B7FA551F441D3900CEA827 /* Assets.xcassets */,
 				22B7FA571F441D3900CEA827 /* LaunchScreen.storyboard */,
 				22B7FA5A1F441D3900CEA827 /* Info.plist */,
+				2279AAAD1F8B53EC0004F789 /* WXSideSlip_PrefixHeader.pch */,
+				2283841E1F8C53900004B69E /* WXMacros.h */,
 				22B7FA491F441D3800CEA827 /* Supporting Files */,
 			);
 			path = WXSideSlip;
@@ -207,6 +600,7 @@
 				TargetAttributes = {
 					22B7FA451F441D3800CEA827 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y2A4GBHCSV;
 						ProvisioningStyle = Automatic;
 					};
 					22B7FA5E1F441D3900CEA827 = {
@@ -249,6 +643,7 @@
 				22B7FA591F441D3900CEA827 /* LaunchScreen.storyboard in Resources */,
 				22B7FA561F441D3900CEA827 /* Assets.xcassets in Resources */,
 				22B7FA541F441D3900CEA827 /* Main.storyboard in Resources */,
+				2248B3651F8E290100259864 /* WXGallery.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +668,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2248B3511F8DC37500259864 /* WXContactsCell.m in Sources */,
+				2248B3421F8DC25C00259864 /* WXMessageGifCell.m in Sources */,
+				2248B34A1F8DC32C00259864 /* WXContactsViewController.m in Sources */,
+				228384191F8B61440004B69E /* WXTimeline.m in Sources */,
+				2279AAA71F8B4F040004F789 /* WXHomeViewController.m in Sources */,
+				228384401F8CB3700004B69E /* WXMessageLayout.m in Sources */,
+				225064551F8F789500B710F7 /* WXWebViewController.m in Sources */,
+				2248B3431F8DC25C00259864 /* WXMessageImageCell.m in Sources */,
+				2248B3411F8DC25C00259864 /* WXMessageLocationCell.m in Sources */,
+				2248B36E1F8E2B5C00259864 /* WXGalleryMedia.m in Sources */,
+				2248B3471F8DC25C00259864 /* WXMessageTextCell.m in Sources */,
+				2248B3631F8E285500259864 /* WXGalleryVideoCell.m in Sources */,
+				2248B3601F8E11E300259864 /* WXGalleryPhotoCell.m in Sources */,
 				22B7FA511F441D3900CEA827 /* ViewController.m in Sources */,
+				228384371F8CB28C0004B69E /* WXMessageViewController.m in Sources */,
+				2279AAAC1F8B4F2C0004F789 /* WXTimelineViewController.m in Sources */,
+				2248B3441F8DC25C00259864 /* WXMessageVoiceCell.m in Sources */,
+				2248B34D1F8DC34200259864 /* WXContacts.m in Sources */,
+				2248B3461F8DC25C00259864 /* WXConversationCell.m in Sources */,
+				2283846A1F8CD2EE0004B69E /* WXGIFImageView.m in Sources */,
+				2248B3541F8DC4AC00259864 /* WXContactsLayout.m in Sources */,
+				228384341F8C7A7A0004B69E /* WXConversationLayout.m in Sources */,
+				2248B3681F8E2A0000259864 /* WXDownloadManager.m in Sources */,
+				2248B35D1F8E0ADD00259864 /* WXGalleryView.m in Sources */,
+				2279AAA91F8B4F040004F789 /* WXMenuViewController.m in Sources */,
+				2248B3581F8E0A0E00259864 /* WXTimelineCell.m in Sources */,
+				2283843D1F8CB3630004B69E /* WXMessage.m in Sources */,
+				2248B36B1F8E2B3200259864 /* WXProgressView.m in Sources */,
+				2248B3401F8DC25C00259864 /* WXMessageVideoCell.m in Sources */,
 				22B7FA4E1F441D3900CEA827 /* AppDelegate.m in Sources */,
+				2248B3451F8DC25C00259864 /* WXMessageTimeCell.m in Sources */,
+				2283841D1F8B632E0004B69E /* WXTimelineLayout.m in Sources */,
+				2283842B1F8C75740004B69E /* WXConversationListViewController.m in Sources */,
+				2279AAA81F8B4F040004F789 /* WXMainViewController.m in Sources */,
+				2248B33F1F8DC25C00259864 /* WXMessageBaseCell.m in Sources */,
 				22B7FA4B1F441D3800CEA827 /* main.m in Sources */,
+				228384311F8C79780004B69E /* WXConversation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +855,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXSideSlip/WXSideSlip_PrefixHeader.pch";
 				INFOPLIST_FILE = WXSideSlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WX.WXSideSlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 			};
 			name = Debug;
 		};
@@ -437,10 +871,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXSideSlip/WXSideSlip_PrefixHeader.pch";
 				INFOPLIST_FILE = WXSideSlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WX.WXSideSlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "$(OBJROOT)/SharedPrecompiledHeaders";
 			};
 			name = Release;
 		};
@@ -509,6 +948,7 @@
 				22B7FA751F441D3900CEA827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B7FA761F441D3900CEA827 /* Build configuration list for PBXNativeTarget "WXSideSlipTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +957,7 @@
 				22B7FA781F441D3900CEA827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B7FA791F441D3900CEA827 /* Build configuration list for PBXNativeTarget "WXSideSlipUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +966,7 @@
 				22B7FA7B1F441D3900CEA827 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
